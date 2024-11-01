@@ -31,22 +31,22 @@ Ao final deve se exibir uma mensagem:
 */
 
 const NomeDoHeroi = "Mago Programador"
-const XPDoHeroi = 50000
+const XPDoHeroi = 2000
 let NivelDoHeroi = null
 
-if (XPDoHeroi < 1000) {
+if (XPDoHeroi <= 1000) {
     NivelDoHeroi = "Ferro"
-} else if (XPDoHeroi < 2000) {
+} else if (XPDoHeroi <= 2000) {
     NivelDoHeroi = "Bronze"
-} else if (XPDoHeroi < 5000) {
+} else if (XPDoHeroi <= 5000) {
     NivelDoHeroi = "Prata"
-} else if (XPDoHeroi < 7000) {
+} else if (XPDoHeroi <= 7000) {
     NivelDoHeroi = "Ouro"
-} else if (XPDoHeroi < 8000) {
+} else if (XPDoHeroi <= 8000) {
     NivelDoHeroi = "Platina"
-} else if (XPDoHeroi < 9000) {
+} else if (XPDoHeroi <= 9000) {
     NivelDoHeroi = "Ascendente"
-} else if (XPDoHeroi < 10000) {
+} else if (XPDoHeroi <= 10000) {
     NivelDoHeroi = "Imortal"
 } else {
     NivelDoHeroi = "Radiante"
